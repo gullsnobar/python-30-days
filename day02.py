@@ -40,7 +40,7 @@ x = 'Snob'
 #  In python Variables names are case sensitive
 
 a = 8;
-a = "Tayyab";
+A = "Tayyab";
 
 
 # Multi Words Variable Names
@@ -65,3 +65,13 @@ x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
 print(z)
+
+# Global Variables
+# Variables that are created outside of a function (as in all of the examples in the previous pages) are known as global variables.
+
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
