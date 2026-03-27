@@ -19,3 +19,30 @@ say_hello()
 def greet(name):
     print("Helle", name);
 greet("Gull");
+
+# ✔ name is called a parameter
+# ✔ "Gull" is an argument
+
+def say_hello(name):
+    print("Hi", name);
+say_hello("Hayya")
+
+# Functions with Return Value
+# Functions can also return data
+
+def add(a, b):
+    return a + b;
+result = add(6,6)
+print(result);
+
+# Real Example
+
+def check_even(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+    print(check_even(6));
+print(check_even(9));
+        
+
