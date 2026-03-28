@@ -42,7 +42,7 @@ def check_even(num):
         return "Even"
     else:
         return "Odd"
-    print(check_even(6));
+print(check_even(6));
 print(check_even(9));
         
 
