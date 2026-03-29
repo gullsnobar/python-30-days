@@ -34,3 +34,27 @@ print(a.strip())
 
 a =  "Martoon"
 print(a.replace("M", "C"))
+
+# Split String
+# The split metho splits the string into substrings if it finds the instances of the separator.
+
+a = "Hello, World, Gull"
+print(a.split(","));
+
+# String Concatication
+
+#  You can concatate two or more strings by using + operator.
+
+x = "Hello";
+y = "Snoabre";
+z = x + y
+print(z)
+
+# Adding space we use "  "
+
+a = "Gull"
+b = "Snobar"
+c = a + " " + b;
+print(c)
+
+# To add a space between them, add a " ":
