@@ -34,3 +34,31 @@ print(bool(x1))
 # Any number is True, except 0.
 
 # Any list, tuple, set, and dictionary are True, except empty ones.
+
+
+
+# Python Operators
+# Operators are used to perform operations on variables and values.
+
+# Python divides the operators in the following groups:
+
+# Arithmetic operators
+
+
+x = 15;
+y = 4;
+
+print(x + y);
+print(x - y);
+print(x * y)
+print(x / y)
+
+
+
+# Assignment operators
+# Comparison operators
+# Logical operators
+# Identity operators
+# Membership operators
+# Bitwise operators
+
