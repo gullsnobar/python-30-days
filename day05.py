@@ -66,6 +66,15 @@ numbers = [1, 2, 3, 4, 5]
 if (count := len(numbers)) > 3:
     print(f"List has {count} elements")
 
+
+# 2. Compound Assignment Operators
+# These operators combine assignment with another operation.
+
+x = 6 
+x =+ 5
+print(x);
+
+
 # Comparison operators
 # Logical operators
 # Identity operators
