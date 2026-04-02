@@ -75,6 +75,36 @@ x =+ 5
 print(x);
 
 
+# Floor Division //=
+
+x = 9
+x //= 2   # same as: x = x // 2
+print(x)  # 4
+
+# Modulus %= (remainder)
+
+x = 10
+x %= 3   # same as: x = x % 3
+print(x)  # 1
+ 
+
+#  Value swaping
+
+a = 4;
+b = 6;
+
+a,b = b,a
+print(a,b)
+
+# Another example
+x = 5;
+y = 7;
+z = 9;
+
+x,y,z = z,y,x
+print(x,y,z)
+
+
 # Comparison operators
 # Logical operators
 # Identity operators
