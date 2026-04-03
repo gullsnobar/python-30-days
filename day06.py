@@ -29,6 +29,30 @@ print(6 > y and y > 3);
 
 
 # Logical operators
+# Logical operators are used to combine conditional statements
+
+# and 	Returns True if both statements are true	x < 5 and  x < 10	
+# or	Returns True if one of the statements is true	x < 5 or x < 4	
+# not	Reverse the result, returns False if the result is true	not(x < 5 and x < 10)
+
+#  and operator
+
+s = 6;
+print ("s is", s > 3 and s < 16);
+
+s = 8
+print( "s is", s > 3 or s > 5);
+
+
+x = 5;
+y = 2;
+
+print(x != y);
+print(x is not y)
+
+
+
+
 # Identity operators
 # Membership operators
 # Bitwise operators
