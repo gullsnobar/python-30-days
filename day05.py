@@ -105,9 +105,4 @@ x,y,z = z,y,x
 print(x,y,z)
 
 
-# Comparison operators
-# Logical operators
-# Identity operators
-# Membership operators
-# Bitwise operators
 
