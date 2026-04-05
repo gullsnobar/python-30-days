@@ -71,4 +71,36 @@ print(numbers)
 my_lists = {"apple", "banana", "orange"}
 my_lists.add("cherry");
 print(my_lists);
+
+
+# What is a Dictionary?
+
+# A dictionary stores data in:
+# key : value pairs
+
+# Ordered (Python 3.7+) 
+# Changeable 
+# No duplicate keys 
+
+# Think: “student record”
+
+student = {
+    "name": "Gull",
+    "age": 31
+}
+
+print(student);
+
+# Example 2 (Access & Modify)
+# to access and modify make sure use correct brackets
+
+student = {
+    "name": "Ali",
+    "age": 20
+}
+
+print(student["name"])  # access
+
+student["age"] = 25     # modify
+print(student)
         
