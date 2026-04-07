@@ -52,3 +52,40 @@ elif marks >= 65:
 else:
    print("You need to work hard")
 
+
+age = 20;
+has_id = True;
+
+if age >= 20 and has_id:
+   print("You can enter the club")
+
+# Nested if (Intermediate)
+#  if inside if called nested if
+
+age = 20;
+has_id = True;
+
+if age > 20:
+   if has_id:
+      print("Entry Allowed");
+   else:
+      print("ID Required");
+else:
+   print("You are underage")
+
+
+# Ternary Operator
+#  write if else in one line also called short hand.
+
+
+age = 18;
+result = "Adult" if age >= 18 else "Minor"
+print(result)
+
+number = 20;
+result1 = "Even Number" if number % 2 == 0 else "Number is Odd"
+print(result1)
+
+marks = 90;
+result2 = "Wonderful have A Grade" if marks >= 90 else ("Grade B");
+print(result2)
