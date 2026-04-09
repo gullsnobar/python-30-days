@@ -54,3 +54,20 @@ names = ["Ali", "Sana", "Salman", "Ahmad"]
 for name in names:
   print(name)
 
+
+# Example 3
+
+for char in "Python":
+  print(char)
+
+for char in "Snobar Amjad":
+  print(char)
+
+
+  # Important Concept
+
+  # range
+  # range(start, stop, step)
+
+  for i in range(0, 15, 2):
+    print(i)
