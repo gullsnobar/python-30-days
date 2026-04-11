@@ -6,3 +6,13 @@
 
 cars = ["Ford", "Volvo", "BMW"]
 print(cars)
+
+# Indexing is very important
+# Indexing always starts from zero
+
+colors = ["Red", "Blue", "Green", "Yellow"]
+print(colors[0]);
+print(colors[2])
+
+# neagative indexing
+print(colors[-1])
