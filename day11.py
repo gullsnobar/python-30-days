@@ -38,3 +38,36 @@ print(numbers.remove(1));
 numbers.append(1);
 numbers.count(2);
 numbers.index(7);
+
+
+# 🔹 1. What is Slicing?
+
+# Slicing = extracting a part (subset) of a list
+
+nums = [1, 2, 3, 4, 5];
+print(nums[1:4]);
+
+cars = ["Ford", "Civic", "Camry", "Acura"];
+print(cars[0:2])
+
+
+#  Methods of arrays
+
+# append method --> add some elements in the last
+
+num = [1,2,2,5,7,8,3,4,5,0]
+print(num.append(100));
+
+# insert method --> add element in specific position
+
+num = [1,8,5,3];
+num.insert(1, 788);
+print(num);
+
+# extend --> extend method is used to merge the list
+
+a = [1,2];
+b = [6,9];
+
+a.extend(b)
+print(a)
