@@ -28,3 +28,13 @@ print(fruits)
 # find the length of elements
 
 print(len(fruits))
+
+# Important Methods
+
+numbers = [1,2,9,5,3,7,3,10,26];
+print(numbers)
+print(numbers.sort());
+print(numbers.remove(1));
+numbers.append(1);
+numbers.count(2);
+numbers.index(7);
