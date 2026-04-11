@@ -16,3 +16,15 @@ print(colors[2])
 
 # neagative indexing
 print(colors[-1])
+
+# Modify Elements
+
+fruits = ["Apple", "Banana", "Mango"]
+print("Fruits", fruits)
+
+fruits[0] = "Strawberry"
+print(fruits)
+
+# find the length of elements
+
+print(len(fruits))
