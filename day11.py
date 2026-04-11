@@ -90,3 +90,19 @@ print(num)
 num = [1,2,3,4,4,5,5];
 num.clear()
 print(num)
+
+# Count --> use to count occurrences of a value
+num = [7,9,3,7,9,6,8,7,7]
+print(num.count(7))
+
+# sort --> Sort the list
+
+num = [7,9,2,3,6,1,8]
+num.sort()
+print(num)
+
+# reverse method is used to reverse the order
+
+num = [1,2,3,5,6]
+num.reverse()
+print(num)
