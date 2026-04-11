@@ -71,3 +71,22 @@ b = [6,9];
 
 a.extend(b)
 print(a)
+
+# remove() --> removes the first occurrence of the specified value
+
+num = [1,8,9,4,6,2,0,1];
+num.remove(8);
+print(num)
+
+# Pop() --> remove by index
+
+num = [7,8,9,4];
+num.pop(2);
+print(num)
+
+
+# Clear --> remove everything
+
+num = [1,2,3,4,4,5,5];
+num.clear()
+print(num)
