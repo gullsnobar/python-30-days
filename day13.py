@@ -1,14 +1,7 @@
-#  What is a Python Module?
+# What is a Python Module?
+# A module is just a .py file containing reusable code
 
-# A module in Python is just a file (.py) that contains code you want to reuse.
-
-# Think of it like:
-
-# A toolbox
-# A library of functions + variables
-
-# Instead of writing everything again, you just import and reuse it.
-
+# Example dictionary
 person1 = {
     "name": "Alice",
     "age": 30,
@@ -19,40 +12,61 @@ print(person1)
 
 # Practical Examples
 
-def add (a, b):
+def add(a, b):
     return a + b
 
-def multiply (a, b, c):
+def multiply(a, b, c):
     return a * b * c
 
 def format_name(name):
     return name.strip().title()
 
-# Random password generator
 
+# Random password generator
 import random
 import string
 
 def generate_password():
     chars = string.ascii_letters + string.digits
-    return " ".join(random.choice(chars) for _ in range(8))
+    return "".join(random.choice(chars) for _ in range(8))  # FIXED (removed spaces)
 
 print(generate_password())
 
 
+# Built-in functions
 x = min(5, 10, 3, 4)
-y = max(4,6,7,3)
+y = max(4, 6, 7, 3)
 
 print(x)
 print(y)
 
-
-# The abs() function returns the absolute (positive) value of the specified number:
-
+# Absolute value
 x = abs(-90327)
 print(x)
 
-# The pow(x, y) function returns the value of x to the power of y (xy).
-
-x = pow(4,6)
+# Power function
+x = pow(4, 6)
 print(x)
+
+
+# JSON Example
+# JSON uses DOUBLE quotes only
+
+import json
+
+data = {
+    "name": "Ali",
+    "age": 30
+}
+print(data)
+
+# Correct JSON string
+# JSON requires double quotes
+
+X = '{"name": "Ali", "age": 30}'
+
+# Convert JSON -> Python
+Y = json.loads(X)
+
+print(Y)
+print(Y["age"])
