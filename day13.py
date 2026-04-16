@@ -70,3 +70,6 @@ Y = json.loads(X)
 
 print(Y)
 print(Y["age"])
+
+# Sets
+# A set is a set of characters inside a pair of square brackets [] with a special meaning:
