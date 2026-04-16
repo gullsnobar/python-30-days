@@ -40,5 +40,19 @@ def generate_password():
 print(generate_password())
 
 
+x = min(5, 10, 3, 4)
+y = max(4,6,7,3)
+
+print(x)
+print(y)
 
 
+# The abs() function returns the absolute (positive) value of the specified number:
+
+x = abs(-90327)
+print(x)
+
+# The pow(x, y) function returns the value of x to the power of y (xy).
+
+x = pow(4,6)
+print(x)
