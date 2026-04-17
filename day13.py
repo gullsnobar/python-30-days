@@ -73,3 +73,13 @@ print(Y["age"])
 
 # Sets
 # A set is a set of characters inside a pair of square brackets [] with a special meaning:
+
+# empty set
+s = set()
+
+# set with values
+numbers = {1, 2, 3, 4, 5}
+
+# duplicates are removed automatically
+nums = {1, 2, 2, 3, 3, 3}
+print(nums)   # {1, 2, 3}
