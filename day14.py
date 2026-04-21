@@ -52,4 +52,21 @@ else:
     print("Result is:" , result)     
     
     
+    
+    
+try:
+     file = open("data.txt", "r")   
+     content = file.read()
+except FileNotFoundError:
+    print("File not found!")     
+else:
+    print("File Content:")
+    print(content)
+    file.close()
 
+
+# Multiple Exceptions in ONE Line
+try:
+    x = int("Hello")
+except (ValueError, TypeError):
+    print("An error occurred!")
