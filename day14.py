@@ -39,7 +39,17 @@ except:
     except ZeroDivisionError:
         print("You cannot divide by zero.")
     
-    
+# Using else
+
+try:
+    x = int(input("Enter a number: "))
+    result = 10 / x
+except ValueError:
+    print("Invalid Input") 
+except ZeroDivisionError:
+    print("Can not divede by zero!") 
+else:
+    print("Result is:" , result)     
     
     
 
